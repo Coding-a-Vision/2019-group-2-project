@@ -4,4 +4,7 @@
     <string name="title_discover">Discover</string>
     <string name="title_movies">Movies</string>
     <string name="title_shows">Shows</string>
+    <string name="input_text">Search</string>
+    <string name="film_text_string">Movies</string>
+    <string name="serie_text_string">Shows</string>
 </resources>
