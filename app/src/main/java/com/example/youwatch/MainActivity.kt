@@ -13,6 +13,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        /*
+        Per vedere vedere la pagina di login, al momento, sostituire
+        setContentView(R.layout.activity_main) -> setContentView(R.layout.login)
+        e commentare tutto il codice sottostante
+         */
+
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
         val navController = findNavController(R.id.nav_host_fragment)
