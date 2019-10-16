@@ -7,4 +7,7 @@
     <string name="input_text">Search</string>
     <string name="film_text_string">Movies</string>
     <string name="serie_text_string">Shows</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="label_login_button">Log In</string>
 </resources>
