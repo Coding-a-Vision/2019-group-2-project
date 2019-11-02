@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical"
@@ -7,7 +8,7 @@
     android:padding="20dp">
 
     <TextView
-        android:id="@+id/appname_text"
+        android:id="@+id/app_name_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="70dp"
@@ -16,7 +17,7 @@
         android:textSize="40sp" />
 
     <EditText
-        android:id="@+id/email_edittext"
+        android:id="@+id/email_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
@@ -27,12 +28,21 @@
         android:singleLine="false" />
 
     <EditText
-        android:id="@+id/password_editttext"
+        android:id="@+id/password_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/password_hint"
         android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/error_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_error_label"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone" />
 
     <Button
         android:id="@+id/login_button"

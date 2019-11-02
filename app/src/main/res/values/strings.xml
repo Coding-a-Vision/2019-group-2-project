@@ -5,11 +5,12 @@
     <string name="title_movies">Movies</string>
     <string name="title_shows">Shows</string>
     <string name="input_text">Search</string>
-    <string name="film_text_string">Movies</string>
-    <string name="serie_text_string">Shows</string>
+    <string name="label_movies">Movies</string>
+    <string name="label_shows">Shows</string>
     <string name="email_hint">Email</string>
     <string name="password_hint">Password</string>
     <string name="label_login_button">Log In</string>
     <string name="shows_list_text">My shows</string>
     <string name="show_image_description">Show image</string>
+    <string name="login_error_label">Username or password is wrong!</string>
 </resources>
