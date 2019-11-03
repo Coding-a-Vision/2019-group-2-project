@@ -19,11 +19,11 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/film_text"
+        android:id="@+id/movies_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFEB3B"
-        android:text="@string/film_text_string"
+        android:text="@string/label_movies"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp" />
 
@@ -66,11 +66,11 @@
     </HorizontalScrollView>
 
     <TextView
-        android:id="@+id/serie_text"
+        android:id="@+id/shows_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFEB3B"
-        android:text="@string/serie_text_string"
+        android:text="@string/label_shows"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp" />
 
