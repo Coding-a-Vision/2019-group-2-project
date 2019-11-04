@@ -7,8 +7,8 @@
 
     <ImageButton
         android:id="@+id/imageButton9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
         tools:src="@tools:sample/avatars[3]" />
 
     <Button
@@ -17,6 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-        android:text="Scopri i film" />/>
+        android:layout_marginBottom="64dp"
+        android:text="Discover Movies" />/>
 
 </FrameLayout>
